@@ -656,13 +656,13 @@ const contactPageData = {
     description:
       "I try to be a hardworking and ambitious individual with a great passion for the Consultant or Business Analysts .I am finding a full-time position in the industry in which I can put into practice my knowledge and experience, ultimately benefiting the operations of the organisation that I work for..",
   },
-  // blogSection: {
-  //   title: "Blogs",
-  //   subtitle:
-  //     "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-  //   link: "https://ashutoshhathidara.wordpress.com",
-  //   avatar_image_path: "blogs_image.svg",
-  // },
+  blogSection: {
+    title: "Blogs",
+    subtitle:
+      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+    link: "https://ashutoshhathidara.wordpress.com",
+    avatar_image_path: "blogs_image.svg",
+  },
   addressSection: {
     title: "Address",
     subtitle: "161D/14 Lac Long Quan, 11 Distric, Ho Chi Minh city, Viet Nam",
