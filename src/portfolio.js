@@ -2,15 +2,16 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
   title: "Nien's Portfolio",
   description:
-    "We always have a choice to make and the choice we make, defines that are we really doing the right thing - Anish Mayaramka",
-  og: {
+    "We always have a choice to make and the choice we make, defines that are we really doing the right thing",
+  author: " - Anish Mayaramka",
+    og: {
     title: "Nien Luong Portfolio",
     type: "website",
     url: "https://nienlb.info",
@@ -23,7 +24,8 @@ const greeting = {
   logo_name: "NienLuong",
   nickname: "tatsuyanin",
   subTitle:
-    "We always have a choice to make and the choice we make, defines that are we really doing the right thing - Anish Mayaramka",
+    "We always have a choice to make and the choice we make, defines that are we really doing the right thing",
+  author: "Anish Mayaramka",
   resumeLink: "https://1drv.ms/u/s!AnBooq3pd12OiMpY8Gc59txnMRkKKQ?e=wlkxeX",
   portfolio_repository: "https://github.com/nienlb/myPortforlio",
   githubProfile: "https://github.com/nienlb",
@@ -248,39 +250,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.hackerrank.com/tatsuyanin",
     },
   ],
 };
@@ -288,17 +258,18 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "Vietnam National University HCM, University of Economics and Law",
+      subtitle: "Management of Information Systems",
+      logo_path: "UEL - logo official.png",
+      alt_name: "UEL",
+      duration: "2013 - 2017",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have studied basic of analyzing, consulting, designing, developing and implementing Management Information System to solve business problems.",
+        "⚡ Knowledge of management information system: Have basic and specialized scientific knowledge related to management information system.",
+        "⚡ Skills, qualities and careers: Ability to analyze and solve management problems with management information systems solutions; capable of testing, researching and discovering knowledge; have the ability to think systematically; have ideological awareness, attitudes, equity, ethics and other responsibilities.",
+        "⚡ Teamwork and communication: Teamwork, communication skill, and foreign language skill"
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.uel.edu.vn/",
     },
   ],
 };
@@ -306,112 +277,13 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "ReactJS & JS",
+      subtitle: "",
+      logo_path: "nordiccoder.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://1drv.ms/b/s!AnBooq3pd12OiMpfJUvNlN6HVkq-TA?e=XuOWR1",
+      alt_name: "Nordic Coder",
+      color_code: "#FFFFFF",
     },
   ],
 };
@@ -575,7 +447,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "avatar.png",
     description:
-      "I try to be a hardworking and ambitious individual with a great passion for the Consultant or Business Analysts .I am finding a full-time position in the industry in which I can put into practice my knowledge and experience, ultimately benefiting the operations of the organisation that I work for..",
+      "I aim to be a dedicated and ambitious person who has a strong desire to work as a consultant or business analyst. I'm looking for a full-time employment in the business where I can put my expertise and skills to good use, thereby helping the operations of the company I work for.",
   },
   blogSection: {
     title: "Blogs",

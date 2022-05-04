@@ -50,6 +50,14 @@
   font-family: "Google Sans Medium";
 }
 
+.author
+{
+  font-size: 30px;
+  line-height: 30px;
+  margin-right: 40px;
+  font-style: italic;
+}
+
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
