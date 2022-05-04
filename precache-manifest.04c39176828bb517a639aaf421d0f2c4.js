@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2df98c9e2a3cbd00a0e30673459abd9e",
+    "revision": "6a9f5dbdcf25f04cb1a7679047267caf",
     "url": "./index.html"
   },
   {
-    "revision": "872a13c46cad349dbc15",
-    "url": "./static/css/main.4745b6f0.chunk.css"
+    "revision": "ccedf0f898bd19e3a6f3",
+    "url": "./static/css/main.e3439b0f.chunk.css"
   },
   {
-    "revision": "910074a499d2af815f42",
-    "url": "./static/js/2.dac34f13.chunk.js"
+    "revision": "8855e4bcf485c37b40e9",
+    "url": "./static/js/2.3cd7e7b3.chunk.js"
   },
   {
-    "revision": "872a13c46cad349dbc15",
-    "url": "./static/js/main.f5073408.chunk.js"
+    "revision": "ccedf0f898bd19e3a6f3",
+    "url": "./static/js/main.94e5ae18.chunk.js"
   },
   {
     "revision": "043b4e9a07b17071c720",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
+    "revision": "9ddbb30b59edb703292b91e4ed117c55",
+    "url": "./static/media/UEL - logo official.9ddbb30b.png"
+  },
+  {
     "revision": "16559172ca1d4d552390b48f19e102ba",
     "url": "./static/media/address_image.16559172.svg"
   },
@@ -68,8 +72,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/avatar.8eb6b395.png"
   },
   {
+    "revision": "1c9700ebed9f98c82118ffee1a2f7021",
+    "url": "./static/media/basevn.1c9700eb.png"
+  },
+  {
     "revision": "058eca4cbdc03a1dad9a6bb943ac7831",
     "url": "./static/media/blogs_image.058eca4c.svg"
+  },
+  {
+    "revision": "126b885cc7210a2b4c8c33b6c9f6e8b3",
+    "url": "./static/media/boxshop.126b885c.png"
+  },
+  {
+    "revision": "f72422db59bde1a29d81133aee3feba1",
+    "url": "./static/media/boxshop.f72422db.svg"
+  },
+  {
+    "revision": "ac542a0d70bbcedc602f04f15e30bc04",
+    "url": "./static/media/changevn.ac542a0d.png"
   },
   {
     "revision": "cacbc42b661f39344af81c631d8d36a9",
@@ -218,6 +238,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "069938a84edd6ebf383c318e9feb5d4c",
     "url": "./static/media/muffito_logo.069938a8.png"
+  },
+  {
+    "revision": "c609cad392630e330bc3c0a469ad0060",
+    "url": "./static/media/nordic.c609cad3.png"
+  },
+  {
+    "revision": "59c7f4315f1978153ffcf9c00c2f9e5a",
+    "url": "./static/media/nordiccoder.59c7f431.png"
   },
   {
     "revision": "95a12a2b8c3149cce2175679755c4b4d",
