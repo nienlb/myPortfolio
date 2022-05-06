@@ -1,20 +1,19 @@
 import React from "react";
-import "./TopButton.css";
+import "./BotButton.css";
 
-export default function TopButton({ theme }) {
-  function GoUpEvent() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+export default function BotButton({ theme }) {
+  function GoDownEvent() {
+    document.body.scrollTop = document.body.scrollTop + 800;
+    document.documentElement.scrollTop = document.documentElement.scrollTop + 800;
   }
-
   function scrollFunction() {
     if (
-      document.body.scrollTop > 1000 ||
-      document.documentElement.scrollTop > 1000
+      document.body.scrollTop >= document.body.offsetHeight-document.body.offsetHeight/3.3 ||
+      document.documentElement.scrollTop >= document.body.offsetHeight-document.body.offsetHeight/3.3
     ) {
-      document.getElementById("topButton").style.visibility = "visible";
+      document.getElementById("botButton").style.visibility = "hidden";
     } else {
-      document.getElementById("topButton").style.visibility = "hidden";
+      document.getElementById("botButton").style.visibility = "visible";
     }
   }
 
@@ -24,7 +23,7 @@ export default function TopButton({ theme }) {
 
   const onMouseEnter = (color, bgColor) => {
     /* For the button */
-    const topButton = document.getElementById("topButton");
+    const topButton = document.getElementById("botButton");
     topButton.style.color = color;
     topButton.style.backgroundColor = bgColor;
 
@@ -36,7 +35,7 @@ export default function TopButton({ theme }) {
 
   const onMouseLeave = (color, bgColor) => {
     /* For the button */
-    const topButton = document.getElementById("topButton");
+    const topButton = document.getElementById("botButton");
     topButton.style.color = color;
     topButton.style.backgroundColor = bgColor;
 
@@ -48,18 +47,18 @@ export default function TopButton({ theme }) {
 
   return (
     <div
-      onClick={GoUpEvent}
-      id="topButton"
+      onClick={GoDownEvent}
+      id="botButton"
       style={{
         color: theme.body,
         backgroundColor: theme.text,
         border: `solid 1px ${theme.text}`,
       }}
-      title="Go up"
+      title="Go down"
       onMouseEnter={() => onMouseEnter(theme.text, theme.body)}
       onMouseLeave={() => onMouseLeave(theme.body, theme.text)}
     >
-      <i class="fas fa-arrow-up" id="arrow" aria-hidden="true" />
+      <i class="fas fa-arrow-down" id="arrow" aria-hidden="true" />
     </div>
   );
 }

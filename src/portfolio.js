@@ -421,6 +421,10 @@ const contactPageData = {
     title: "Phone Number",
     subtitle: "+84 366 474 688",
   },
+  mailSection: {
+    title: "Mail",
+    subtitle: "tatsuyanin@gmail.com",
+  }
 };
 
 export {

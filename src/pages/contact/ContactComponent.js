@@ -14,6 +14,7 @@ const ContactData = contactPageData.contactSection;
 // const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
 const phoneSection = contactPageData.phoneSection;
+const mailSection = contactPageData.mailSection;
 
 class Contact extends Component {
   render() {
@@ -112,6 +113,19 @@ class Contact extends Component {
                   href="tel://+84366474688"
                 >
                   {phoneSection["subtitle"]}
+                </a>
+                <h1
+                  className="address-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  {mailSection["title"]}
+                </h1>
+                <a
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                  href="mailto: tatsuyanin@gmail.com"
+                >
+                  {mailSection["subtitle"]}
                 </a>
                 <div className="address-btn-div">
                   <Button
