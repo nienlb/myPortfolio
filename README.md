@@ -1,5 +1,6 @@
-<h1 align="center"> Welcome to my Portfolio </h1> 
-✔️ Template Developed by **[Ashutosh Hathidara](https://github.com/ashutosh1919)**
+## Welcome to my Portfolio 
+
+Template Developed by **[Ashutosh Hathidara](https://github.com/ashutosh1919/)**
 
 # Sections 📚
 
