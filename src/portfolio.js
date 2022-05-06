@@ -26,8 +26,8 @@ const greeting = {
   subTitle:
     "We always have a choice to make and the choice we make, defines that are we really doing the right thing",
   author: "Anish Mayaramka",
-  resumeLink: "https://1drv.ms/u/s!AnBooq3pd12OiMpY8Gc59txnMRkKKQ?e=wlkxeX",
-  portfolio_repository: "https://github.com/nienlb/myPortforlio",
+  resumeLink: "https://1drv.ms/b/s!AnBooq3pd12OiMpiL8127BAFUF5v-w?e=rMM8N9",
+  portfolio_repository: "https://github.com/nienlb/myPortfolio",
   githubProfile: "https://github.com/nienlb",
 };
 
