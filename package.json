@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "myPortfolio",
-  "homepage": ".",
+  "homepage": "https://nienlb.info",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
