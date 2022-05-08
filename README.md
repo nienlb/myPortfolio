@@ -1,4 +1,4 @@
-## Welcome to my Portfolio 
+# Welcome to my Portfolio 
 
 Template Developed by **[Ashutosh Hathidara](https://github.com/ashutosh1919/)**
 
