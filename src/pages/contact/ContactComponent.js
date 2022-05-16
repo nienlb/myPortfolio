@@ -6,7 +6,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 // import BlogsImg from "./BlogsImg";
 import AddressImg from "./AddressImg";
-import { Fade , Bounce } from "react-reveal";
+import { Fade , Flip } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
@@ -25,7 +25,7 @@ class Contact extends Component {
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
-            <Bounce left duration={3000}>
+            <Flip left duration={3000}>
               <div className="contact-heading-img-div">
                 <img
                   style={{
@@ -37,7 +37,7 @@ class Contact extends Component {
                   alt=""
                 />
               </div>
-              </Bounce>
+              </Flip>
               <div className="contact-heading-text-div">
                 <h1
                   className="contact-heading-text"

@@ -22,7 +22,7 @@ const seo = {
 const greeting = {
   title: "Nien Luong",
   logo_name: "NienLuong",
-  nickname: "tatsuyanin",
+  nickname: "nienlb",
   subTitle:
     "We always have a choice to make and the choice we make, defines that are we really doing the right thing",
   author: "Anish Mayaramka",
